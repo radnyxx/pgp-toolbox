@@ -2,6 +2,7 @@
 a minimalist, client-side OpenPGP utility built for fast, secure cryptographic operations directly in your browser... 
 pro-privacy, anti-glowie tech, without any external dependencies. this project was initially a part of my personal website "nirvanos", which I'm currently in the process of building...
 
+[![header](https://raw.githubusercontent.com/radnyxx/pgp-toolbox/refs/heads/main/banner.webp)](https://radnyxx.com)
 
 ## What is PGP?
 
