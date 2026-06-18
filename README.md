@@ -2,7 +2,6 @@
 a minimalist, client-side OpenPGP utility built for fast, secure cryptographic operations directly in your browser... 
 pro-privacy, anti-glowie tech, without any external dependencies. this project was initially a part of my personal website "nirvanos", which I'm currently in the process of building...
 
----
 
 ## What is PGP?
 
@@ -13,20 +12,18 @@ Pretty Good Privacy (PGP) is an asymmetric cryptographic framework used to secur
 
 By separating the key used for encryption from the key used for decryption, PGP ensures that eavesdroppers, host providers, and state actors cannot look into or tamper with your data in transit, even if they control the underlying network infrastructure.
 
----
 
 ## What This Tool Provides
 
 This toolbox is designed as a standalone utility for day-to-day operational security, keeping your workflows completely local.
 
-* **Zero-Server Architecture:** Powered entirely by `openpgp.js` executing within your local browser context. Your private keys, passphrases, and unencrypted cleartext never leave your machine and are never transmitted over the wire. (pun intended ;-;)
-* **Dynamic Key Inspection:** Paste any armored key block to instantly parse and verify its fingerprint, User ID, creation date, and object identifier (OID) without relying on remote keyservers.
-* **Asymmetric Encryption & Decryption:** Fast, client-side encryption using a recipient's public key, and decryption of incoming payloads using your password-protected private key.
-* **Cryptographic Signing & Verification:** Generate cleartext signatures to prove authorship of your statements, or verify the signatures of third parties to detect tampering.
-* **In-Browser Key Generation:** Generate new public/private key pairs locally with custom names, emails, and passphrases instantly.
-* **Session Isolation:** Your workspace survives accidental page refreshes, but flushes automatically the moment you close the browser tab, leaving no permanent footprint behind on shared hardware.
+* Powered entirely by `openpgp.js` executing within your local browser context. Your private keys, passphrases, and unencrypted cleartext never leave your machine and are never transmitted over the wire (pun intended ;-;)
+* Paste any armored key block to instantly parse and verify its fingerprint, User ID, creation date, and object identifier (OID) without relying on remote keyservers.
+* Fast, client-side encryption using a recipient's public key, and decryption of incoming payloads using your password-protected private key.
+* Generate cleartext signatures to prove authorship of your statements, or verify the signatures of third parties to detect tampering.
+* Generate new public/private key pairs locally with custom names, emails, and passphrases instantly.
+* Your workspace survives accidental page refreshes, but flushes automatically the moment you close the browser tab, leaving no permanent footprint behind on shared hardware.
 
----
 
 ## Security Model
 
